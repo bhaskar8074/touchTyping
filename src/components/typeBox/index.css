@@ -1,0 +1,55 @@
+.bg-container {
+  background-color: #050612;
+  background-size: cover;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  height: 100vh;
+}
+
+.random-string {
+  color: #04ba04;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.16em;
+}
+
+.input-field {
+  height: 26px;
+  width: 400px;
+  border-radius: 2px;
+  color: #04ba04;
+  font-size: 24px;
+  border: 2px solid #04ba04;
+}
+
+.keys-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.key-btn {
+  border: 1px solid white;
+  color: #04ba04;
+  font-weight: bold;
+  font-size: 26px;
+  font-family: "Roboto";
+  border-radius: 5px;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.active {
+  background-color: blanchedalmond;
+}
+
+.stats-accuracy {
+  color: #04ba04;
+  font-size: 24px;
+  font-weight: bold;
+}
