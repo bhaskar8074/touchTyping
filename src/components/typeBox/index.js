@@ -22,6 +22,7 @@ const TypingBox = () => {
     if (startTime) {
       const interval = setInterval(() => {
         const elapsedTime = Math.floor((Date.now() - startTime) / 1000);
+        console.log(elapsedTime);
         const minutes = Math.floor(elapsedTime / 60)
           .toString()
           .padStart(2, "0");
@@ -33,7 +34,7 @@ const TypingBox = () => {
           setStartTime(null);
           setTimeCompleted(true);
         }
-      }, 10);
+      }, 1000);
       return () => clearInterval(interval);
     }
   }, [startTime]);

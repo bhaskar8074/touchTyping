@@ -9,8 +9,9 @@
 .random-string {
   color: #04ba04;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 24px;
   letter-spacing: 0.16em;
+  font-family: "sans-serif";
 }
 
 .input-field {
