@@ -57,11 +57,11 @@ const TypingBox = () => {
   };
 
   const handleInputChange = (e) => {
-    const inputValue = e.target.value;
-    setInputValue(inputValue);
-    setActiveKey(randomString[inputValue.length]);
+    const enteredInputValue = e.target.value;
+    setInputValue(enteredInputValue);
+    setActiveKey(randomString[enteredInputValue.length]);
 
-    if (inputValue.length === randomString.length) {
+    if (enteredInputValue.length === randomString.length) {
       calculateAccuracy();
       setInputValue("");
       generateRandomString();
