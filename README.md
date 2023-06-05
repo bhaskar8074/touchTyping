@@ -10,7 +10,6 @@ Touch Typing Practice is a React component that allows users to practice their t
 - Keeps track of the total number of correct keys pressed.
 - Displays the overall accuracy percentage once the time limit is reached.
 - Supports timing the typing practice for 5 minutes.
-- 
 
 ## Installation
 
